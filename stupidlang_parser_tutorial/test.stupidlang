@@ -1,0 +1,13 @@
+print _hello_world!
+question <- _What's_your_favourite_number?
+favourite <- ask_int question
+print favourite
+if favourite = 42
+    print _Good_answer!
+else
+    if favourite > 42
+        print _Thats_too_high!
+    else
+        print _Up_Up_Up!_Go_Up!
+    end
+end

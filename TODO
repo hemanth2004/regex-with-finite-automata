@@ -1,0 +1,45 @@
+Project goal: 
+To create a Regex Processor that can read regex, 
+Create a syntax tree,
+Compile to FA,
+Minimize FA and store.
+Next run pattern match and return matches
+
+Modules:
+1. Lexer:
+    - read regex
+    - return tokens
+2. Parser:
+    - read tokens
+    - return syntax tree
+3. FA Generator:
+    - read syntax tree
+    - return FA
+4. FA Minimizer:
+    - read FA
+    - return minimized FA
+5. FA Storage:
+    - read minimized FA
+    - store in database
+6. Pattern Matcher:
+    - read regex
+    - return matches
+
+
+
+DSA Stuff:
+✅1. Automatic Sparse and Dense graph representation of FA with adjacency matrix and adjacency list
+✅2. Post order traversal of parse tree, building FA with a stack
+✅3. Conversion of NFA to DFA using BFS
+✅4. Disjoint Set Union (DSU) data structure for DFA minimization
+✅5. Dijkstra's shortest path algorithm to find the minimum requirement to satisfy a regex
+
+
+
+
+
+
+
+
+
+
